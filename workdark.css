@@ -1,0 +1,2580 @@
+body.dark-mode {
+    background-color: #0d1117;
+    color: #e8f0f9;
+  }
+  body.dark-mode .navbar.fixed-top {
+    position: fixed;
+    -webkit-animation: navbar-animation 0.6s;
+    animation: navbar-animation 0.6s;
+    background-color: #0d1117;
+  }
+  body.dark-mode .navbar .navbar-toggler.collapsed .menu-icon-bar {
+    background-color: #fff;
+  }
+  body.dark-mode .navbar.fixed-top.navbar-dark .navbar-nav .nav-link::after {
+    background-color: #F70776;
+  }
+  body.dark-mode .navbar .navbar-brand {
+    /* font-family: 'Lobster', cursive; */
+    font-size: 20px;
+    color: #e8f0f9;
+  }
+  body.dark-mode .navbar-dark .navbar-nav .nav-link {
+    position: relative;
+    color: #e8f0f9;
+    font-size: 15px;
+  }
+  @media screen and (max-width: 768px) {
+    .navbar-brand {
+      margin-left: 20px;
+    }
+    body.dark-mode .navbar-nav {
+      padding: 0 20px;
+      background-color: #0d1117;
+      text-align: left;
+      color: #e8f0f9;
+    }
+    .navbar.fixed-top .navbar-nav {
+      background: transparent;
+    }
+  }
+
+  body.dark-mode a {
+    color: #F70776;
+  }
+  
+  body.dark-mode button {
+    background-color: #fff;
+    color: #F70776;
+  }
+
+
+
+
+
+
+
+
+
+
+    /* button-48 */
+body.dark-mode .button-48 {
+    appearance: none;
+    background-color: #F70776;
+    border-width: 0;
+    box-sizing: border-box;
+    color: #e8f0f9;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Clarkson,Helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1em;
+    opacity: 1;
+    outline: 0;
+    padding: 1em 2.2em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-rendering: geometricprecision;
+    text-transform: uppercase;
+    transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+    border-radius: 2px;
+  }
+  
+  body.dark-mode .button-48:before {
+    animation: opacityFallbackOut .5s step-end forwards;
+    backface-visibility: hidden;
+    background: #1D1B38;
+    clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: translateZ(0);
+    transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+    width: 100%;
+    color: #fff;
+  }
+  body.dark-mode .button-48:hover {
+    color: #fff;
+  }
+  
+  body.dark-mode .button-48:hover:before {
+    animation: opacityFallbackIn 0s step-start forwards;
+    clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+    border-radius: 2px;
+    color: #fff;
+  }
+  
+  body.dark-mode .button-48:after {
+    background-color: #FFFFFF;
+    color: #fff;
+  }
+  
+  body.dark-mode .button-48 span {
+    z-index: 1;
+    position: relative;
+  }
+  /* button-48 */
+ 
+
+
+
+
+
+
+
+
+  @-webkit-keyframes scroll {
+    0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    100% {
+    -webkit-transform: translateX(calc(-250px * 7));
+    transform: translateX(calc(-250px * 7));
+    }
+    }
+    @keyframes scroll {
+    0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    100% {
+    -webkit-transform: translateX(calc(-250px * 7));
+    transform: translateX(calc(-250px * 7));
+    }
+    }
+    .slider::before, .slider::after {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+    }
+    .slider::after {
+    right: 0;
+    top: 0;
+    -webkit-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+    }
+    .slider::before {
+    left: 0;
+    top: 0;
+    }
+    .slider .slide-track {
+    -webkit-animation: scroll 40s linear infinite;
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+    }
+    .slider .slide {
+    height: 100px;
+    width: 250px;
+  }
+
+
+
+
+
+
+
+  @media screen and (max-width: 1500px){
+    body.dark-mode .section{
+        margin: 50px 160px;
+    }
+    body.dark-mode #my-work {
+      margin-top: -830px; 
+        text-align: left;
+      }
+      body.dark-mode #my-work .text h1{
+        padding-bottom: 30px; 
+        text-align: justify ;
+        font-size: 60px;
+        font-weight: 600;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #fff !important;
+      }
+  
+      
+  
+  
+  
+      body.dark-mode .portfolio{
+        background-color: #161b22;
+        padding-top: 3px;
+        padding-bottom: 20px;
+        margin-top: 120px; 
+        margin-bottom: 100px;
+      }
+      body.dark-mode .portfolio .text2{
+        padding-bottom: 20px;
+        text-align: center;
+      }
+      body.dark-mode .portfolio .text2 h3{
+        padding-top: 50px;
+        font-size: 30px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio .text2 p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: center;
+      }
+      body.dark-mode .portfolio #portfolio1 #jobboxglobal h3{
+        padding: 50px 0px 0px ; 
+        font-size: 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio #portfolio1 #jobboxglobal p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: justify;
+      }
+      body.dark-mode .portfolio #portfolio2{
+        padding-top: 40px;
+      }
+      body.dark-mode .portfolio #portfolio2 #jobboxglobal h3{
+        padding: 50px 0px 0px ; 
+        font-size: 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio #portfolio2 #jobboxglobal p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: justify;
+      }
+
+
+
+
+
+      body.dark-mode .slider {
+        background: pr;
+        box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+        height: 100px;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        width: 70%;
+        margin-bottom: 100px;
+        }
+  
+  
+  
+      
+      body.dark-mode #contact {
+        background-color: #161b22;
+        text-align: center;
+      }
+      body.dark-mode #contact .section {
+        padding: 105px 20px 105px; 
+      }
+      body.dark-mode #contact .section #contact-bg .form-group{
+        margin-top: 40px;
+      }
+      body.dark-mode #contact .section #contact-bg .form-group input{
+        background-color: #0d1117;
+        color: #e8f0f9 ;
+        border-color: #0d1117;
+      }
+      body.dark-mode #contact .section h3{
+        padding: 30px 0px 15px; 
+        font-size: 28px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+        color: #e8f0f9 
+      }
+      body.dark-mode #contact-bg{
+        padding: 0px 20px; 
+        border: 10px solid #f7077778; 
+        background-color: #161b22;
+      }
+      body.dark-mode #what-they-say .testimony{
+        padding: 0px 0px 0px 50px; 
+        text-align: justify;
+      }
+      body.dark-mode #what-they-say .testimony .head p{
+        color: #F70776; 
+        font-size:13px; 
+        padding: 0px 0px 10px;
+      }
+      body.dark-mode #what-they-say .testimony #message p{
+        line-height: 2.7; 
+        font-size: 15px; 
+        color: #8492a6 !important;
+      }
+      body.dark-mode #what-they-say .testimony h2{
+        font-size: 28px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode #what-they-say .testimony .name h5{
+        padding-top: 20px; 
+        color: #e8f0f9  !important;
+        font-weight: 500;
+      }
+
+
+
+
+
+      body.dark-mode .socialmedia .section{
+        margin: 100px 160px 80px;
+      }
+      body.dark-mode .socialmedia .section p{
+        padding: 20px 200px; 
+        color: #8492a6 !important; 
+        font-size: 15px;
+      }
+
+
+
+
+
+      body.dark-mode footer{
+        background: #0d1117;
+        text-align: center; 
+        margin: -10px 0px;
+        width: 100%;
+      }
+      body.dark-mode footer p{
+        padding: 25px 200px 20px; 
+        color: #fff !important; 
+        font-size: 15px;
+      }
+      
+
+
+
+
+      body.dark-mode footer{
+        background: #0d1117;
+        text-align: center; 
+        margin: -10px 0px;
+        width: 100%;
+      }
+      body.dark-mode footer p{
+        padding: 25px 200px 20px; 
+        color: #F70776 !important; 
+        font-size: 15px;
+      }
+      body.dark-mode footer .name-hover{
+        color: #e8f0f9;
+      }
+      body.dark-mode footer .name-hover:hover{
+        color: #F70776; 
+        cursor: pointer;
+      }
+      
+  }
+  @media screen and (max-width: 1400px){
+    body.dark-mode .section{
+        margin: 50px 145px;
+    }
+    body.dark-mode #my-work {
+      margin-top: -780px; 
+        text-align: left;
+      }
+      body.dark-mode #my-work .text h1{
+        padding-bottom: 30px; 
+        text-align: justify ;
+        font-size: 60px;
+        font-weight: 600;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #fff !important;
+      }
+  
+      
+  
+  
+  
+      body.dark-mode .portfolio{
+        background-color: #161b22;
+        padding-top: 3px;
+        padding-bottom: 20px;
+        margin-top: 120px; 
+        margin-bottom: 100px;
+      }
+      body.dark-mode .portfolio .text2{
+        padding-bottom: 20px;
+        text-align: center;
+      }
+      body.dark-mode .portfolio .text2 h3{
+        padding-top: 50px;
+        font-size: 30px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio .text2 p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: center;
+      }
+      body.dark-mode .portfolio #portfolio1 #jobboxglobal h3{
+        padding: 60px 0px 0px ; 
+        font-size: 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio #portfolio1 #jobboxglobal p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: justify;
+      }
+      body.dark-mode .portfolio #portfolio2{
+        padding-top: 40px;
+      }
+      body.dark-mode .portfolio #portfolio2 #jobboxglobal h3{
+        padding: 60px 0px 0px ; 
+        font-size: 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio #portfolio2 #jobboxglobal p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: justify;
+      }
+  
+  
+  
+      
+      body.dark-mode #contact {
+        background-color: #161b22;
+        text-align: center;
+      }
+      body.dark-mode #contact .section {
+        padding: 105px 20px 105px; 
+      }
+      body.dark-mode #contact .section #contact-bg .form-group{
+        margin-top: 40px;
+      }
+      body.dark-mode #contact .section #contact-bg .form-group input{
+        background-color: #0d1117;
+        color: #e8f0f9 ;
+        border-color: #0d1117;
+      }
+      body.dark-mode #contact .section h3{
+        padding: 30px 0px 15px; 
+        font-size: 28px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+        color: #e8f0f9 
+      }
+      body.dark-mode #contact-bg{
+        padding: 0px 20px; 
+        border: 10px solid #f7077778; 
+        background-color: #161b22;
+      }
+      body.dark-mode #what-they-say .testimony{
+        padding: 0px 0px 0px 50px; 
+        text-align: justify;
+      }
+      body.dark-mode #what-they-say .testimony .head p{
+        color: #F70776; 
+        font-size:13px; 
+        padding: 0px 0px 10px;
+      }
+      body.dark-mode #what-they-say .testimony #message p{
+        line-height: 2.7; 
+        font-size: 15px; 
+        color: #8492a6 !important;
+      }
+      body.dark-mode #what-they-say .testimony h2{
+        font-size: 28px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode #what-they-say .testimony .name h5{
+        padding-top: 20px; 
+        color: #e8f0f9  !important;
+        font-weight: 500;
+      }
+
+
+
+
+
+      body.dark-mode .socialmedia .section{
+        margin: 100px 160px 80px;
+      }
+      body.dark-mode .socialmedia .section p{
+        padding: 20px 200px; 
+        color: #8492a6 !important; 
+        font-size: 15px;
+      }
+
+
+
+
+
+      body.dark-mode footer{
+        background: #0d1117;
+        text-align: center; 
+        margin: -10px 0px;
+        width: 100%;
+      }
+      body.dark-mode footer p{
+        padding: 25px 200px 20px; 
+        color: #fff !important; 
+        font-size: 15px;
+      }
+      
+
+
+
+
+      body.dark-mode footer{
+        background: #0d1117;
+        text-align: center; 
+        margin: -10px 0px;
+        width: 100%;
+      }
+      body.dark-mode footer p{
+        padding: 25px 200px 20px; 
+        color: #F70776 !important; 
+        font-size: 15px;
+      }
+      body.dark-mode footer .name-hover{
+        color: #e8f0f9;
+      }
+      body.dark-mode footer .name-hover:hover{
+        color: #F70776; 
+        cursor: pointer;
+      }
+      
+  }
+  @media screen and (max-width: 1300px){
+    body.dark-mode .section{
+        margin: 50px 95px;
+    }
+    body.dark-mode #my-work {
+      margin-top: -730px; 
+        text-align: left;
+      }
+      body.dark-mode #my-work .text h1{
+        padding-bottom: 30px; 
+        text-align: justify ;
+        font-size: 60px;
+        font-weight: 600;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #fff !important;
+      }
+  
+      
+  
+  
+  
+      body.dark-mode .portfolio{
+        background-color: #161b22;
+        padding-top: 3px;
+        padding-bottom: 20px;
+        margin-top: 120px; 
+        margin-bottom: 100px;
+      }
+      body.dark-mode .portfolio .text2{
+        padding-bottom: 20px;
+        text-align: center;
+      }
+      body.dark-mode .portfolio .text2 h3{
+        padding-top: 50px;
+        font-size: 30px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio .text2 p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: center;
+      }
+      body.dark-mode .portfolio #portfolio1 #jobboxglobal h3{
+        padding: 70px 0px 0px ; 
+        font-size: 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio #portfolio1 #jobboxglobal p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: justify;
+      }
+      body.dark-mode .portfolio #portfolio2{
+        padding-top: 40px;
+      }
+      body.dark-mode .portfolio #portfolio2 #jobboxglobal h3{
+        padding: 70px 0px 0px ; 
+        font-size: 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio #portfolio2 #jobboxglobal p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: justify;
+      }
+  
+  
+  
+      
+      body.dark-mode #contact {
+        background-color: #161b22;
+        text-align: center;
+      }
+      body.dark-mode #contact .section {
+        padding: 105px 20px 105px; 
+      }
+      body.dark-mode #contact .section #contact-bg .form-group{
+        margin-top: 40px;
+      }
+      body.dark-mode #contact .section #contact-bg .form-group input{
+        background-color: #0d1117;
+        color: #e8f0f9 ;
+        border-color: #0d1117;
+      }
+      body.dark-mode #contact .section h3{
+        padding: 30px 0px 15px; 
+        font-size: 28px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+        color: #e8f0f9 
+      }
+      body.dark-mode #contact-bg{
+        padding: 0px 20px; 
+        border: 10px solid #f7077778; 
+        background-color: #161b22;
+      }
+      body.dark-mode #what-they-say .testimony{
+        padding: 0px 0px 0px 50px; 
+        text-align: justify;
+      }
+      body.dark-mode #what-they-say .testimony .head p{
+        color: #F70776; 
+        font-size:13px; 
+        padding: 0px 0px 10px;
+      }
+      body.dark-mode #what-they-say .testimony #message p{
+        line-height: 2.7; 
+        font-size: 15px; 
+        color: #8492a6 !important;
+      }
+      body.dark-mode #what-they-say .testimony h2{
+        font-size: 28px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode #what-they-say .testimony .name h5{
+        padding-top: 20px; 
+        color: #e8f0f9  !important;
+        font-weight: 500;
+      }
+
+
+
+
+
+      body.dark-mode .socialmedia .section{
+        margin: 100px 160px 80px;
+      }
+      body.dark-mode .socialmedia .section p{
+        padding: 20px 200px; 
+        color: #8492a6 !important; 
+        font-size: 15px;
+      }
+
+
+
+
+
+      body.dark-mode footer{
+        background: #0d1117;
+        text-align: center; 
+        margin: -10px 0px;
+        width: 100%;
+      }
+      body.dark-mode footer p{
+        padding: 25px 200px 20px; 
+        color: #fff !important; 
+        font-size: 15px;
+      }
+      
+
+
+
+
+      body.dark-mode footer{
+        background: #0d1117;
+        text-align: center; 
+        margin: -10px 0px;
+        width: 100%;
+      }
+      body.dark-mode footer p{
+        padding: 25px 200px 20px; 
+        color: #F70776 !important; 
+        font-size: 15px;
+      }
+      body.dark-mode footer .name-hover{
+        color: #e8f0f9;
+      }
+      body.dark-mode footer .name-hover:hover{
+        color: #F70776; 
+        cursor: pointer;
+      }
+      
+  }
+  @media screen and (max-width: 1200px){
+    body.dark-mode .section{
+        margin: 50px 45px;
+    }
+    body.dark-mode #my-work {
+      margin-top: -660px; 
+        text-align: left;
+      }
+      body.dark-mode #my-work .text h1{
+        padding-bottom: 30px; 
+        text-align: justify ;
+        font-size: 60px;
+        font-weight: 600;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #fff !important;
+      }
+  
+      
+  
+  
+  
+      body.dark-mode .portfolio{
+        background-color: #161b22;
+        padding-top: 3px;
+        padding-bottom: 20px;
+        margin-top: 120px; 
+        margin-bottom: 100px;
+      }
+      body.dark-mode .portfolio .text2{
+        padding-bottom: 20px;
+        text-align: center;
+      }
+      body.dark-mode .portfolio .text2 h3{
+        padding-top: 50px;
+        font-size: 30px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio .text2 p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: center;
+      }
+      body.dark-mode .portfolio #portfolio1 #jobboxglobal h3{
+        padding: 60px 0px 0px ; 
+        font-size: 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio #portfolio1 #jobboxglobal p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: justify;
+      }
+      body.dark-mode .portfolio #portfolio2{
+        padding-top: 40px;
+      }
+      body.dark-mode .portfolio #portfolio2 #jobboxglobal h3{
+        padding: 60px 0px 0px ; 
+        font-size: 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio #portfolio2 #jobboxglobal p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: justify;
+      }
+  
+  
+  
+      
+      body.dark-mode #contact {
+        background-color: #161b22;
+        text-align: center;
+      }
+      body.dark-mode #contact .section {
+        padding: 105px 20px 105px; 
+      }
+      body.dark-mode #contact .section #contact-bg .form-group input{
+        background-color: #0d1117;
+        color: #e8f0f9 ;
+        border-color: #0d1117;
+      }
+      body.dark-mode #contact .section h3{
+        padding: 30px 0px 15px; 
+        font-size: 28px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+        color: #e8f0f9 
+      }
+      body.dark-mode #contact-bg{
+        padding: 0px 20px; 
+        border: 10px solid #f7077778; 
+        background-color: #161b22;
+      }
+      body.dark-mode #what-they-say .testimony{
+        padding: 0px 0px 0px 50px; 
+        text-align: justify;
+      }
+      body.dark-mode #what-they-say .testimony .head p{
+        color: #F70776; 
+        font-size:13px; 
+        padding: 0px 0px 10px;
+      }
+      body.dark-mode #what-they-say .testimony #message p{
+        line-height: 2.7; 
+        font-size: 15px; 
+        color: #8492a6 !important;
+      }
+      body.dark-mode #what-they-say .testimony h2{
+        font-size: 28px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode #what-they-say .testimony .name h5{
+        padding-top: 20px; 
+        color: #e8f0f9  !important;
+        font-weight: 500;
+      }
+
+
+
+
+
+      body.dark-mode .socialmedia .section{
+        margin: 100px 160px 80px;
+      }
+      body.dark-mode .socialmedia .section p{
+        padding: 20px 200px; 
+        color: #8492a6 !important; 
+        font-size: 15px;
+      }
+
+
+
+
+
+      body.dark-mode footer{
+        background: #0d1117;
+        text-align: center; 
+        margin: -10px 0px;
+        width: 100%;
+      }
+      body.dark-mode footer p{
+        padding: 25px 200px 20px; 
+        color: #fff !important; 
+        font-size: 15px;
+      }
+      
+
+
+
+
+      body.dark-mode footer{
+        background: #0d1117;
+        text-align: center; 
+        margin: -10px 0px;
+        width: 100%;
+      }
+      body.dark-mode footer p{
+        padding: 25px 200px 20px; 
+        color: #F70776 !important; 
+        font-size: 15px;
+      }
+      body.dark-mode footer .name-hover{
+        color: #e8f0f9;
+      }
+      body.dark-mode footer .name-hover:hover{
+        color: #F70776; 
+        cursor: pointer;
+      }
+      
+  }
+  @media screen and (max-width: 1100px){
+    body.dark-mode .section{
+        margin: 50px 45px;
+    }
+    body.dark-mode #my-work {
+        margin-top: -600px; 
+        text-align: left;
+      }
+      body.dark-mode #my-work .text h1{
+        padding-bottom: 30px; 
+        text-align: justify ;
+        font-size: 50px;
+        font-weight: 600;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #fff !important;
+      }
+  
+      
+  
+  
+  
+      body.dark-mode .portfolio{
+        background-color: #161b22;
+        padding-top: 3px;
+        padding-bottom: 20px;
+        margin-top: 120px; 
+        margin-bottom: 100px;
+      }
+      body.dark-mode .portfolio .text2{
+        padding-bottom: 20px;
+        text-align: center;
+      }
+      body.dark-mode .portfolio .text2 h3{
+        padding-top: 50px;
+        font-size: 30px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio .text2 p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: center;
+      }
+      body.dark-mode .portfolio #portfolio1 #jobboxglobal h3{
+        padding: 50px 0px 0px ; 
+        font-size: 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio #portfolio1 #jobboxglobal p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: justify;
+      }
+      body.dark-mode .portfolio #portfolio2{
+        padding-top: 40px;
+      }
+      body.dark-mode .portfolio #portfolio2 #jobboxglobal h3{
+        padding: 50px 0px 0px ; 
+        font-size: 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio #portfolio2 #jobboxglobal p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: justify;
+      }
+  
+  
+  
+      
+      body.dark-mode #contact {
+        background-color: #161b22;
+        text-align: center;
+      }
+      body.dark-mode #contact .section {
+        padding: 105px 20px 105px; 
+      }
+      body.dark-mode #contact .section #contact-bg .form-group input{
+        background-color: #0d1117;
+        color: #e8f0f9 ;
+        border-color: #0d1117;
+      }
+      body.dark-mode #contact .section h3{
+        padding: 30px 0px 15px; 
+        font-size: 28px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+        color: #e8f0f9 
+      }
+      body.dark-mode #contact-bg{
+        padding: 0px 20px; 
+        border: 10px solid #f7077778; 
+        background-color: #161b22;
+      }
+      body.dark-mode #what-they-say .testimony{
+        padding: 0px 0px 0px 50px; 
+        text-align: justify;
+      }
+      body.dark-mode #what-they-say .testimony .head p{
+        color: #F70776; 
+        font-size:13px; 
+        padding: 0px 0px 10px;
+      }
+      body.dark-mode #what-they-say .testimony #message p{
+        line-height: 2.7; 
+        font-size: 15px; 
+        color: #8492a6 !important;
+      }
+      body.dark-mode #what-they-say .testimony h2{
+        font-size: 28px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode #what-they-say .testimony .name h5{
+        padding-top: 20px; 
+        color: #e8f0f9  !important;
+        font-weight: 500;
+      }
+
+
+
+
+
+      body.dark-mode .socialmedia .section{
+        margin: 100px 160px 80px;
+      }
+      body.dark-mode .socialmedia .section p{
+        padding: 20px 200px; 
+        color: #8492a6 !important; 
+        font-size: 15px;
+      }
+
+
+
+
+
+      body.dark-mode footer{
+        background: #0d1117;
+        text-align: center; 
+        margin: -10px 0px;
+        width: 100%;
+      }
+      body.dark-mode footer p{
+        padding: 25px 200px 20px; 
+        color: #fff !important; 
+        font-size: 15px;
+      }
+      
+
+
+
+
+      body.dark-mode footer{
+        background: #0d1117;
+        text-align: center; 
+        margin: -10px 0px;
+        width: 100%;
+      }
+      body.dark-mode footer p{
+        padding: 25px 200px 20px; 
+        color: #F70776 !important; 
+        font-size: 15px;
+      }
+      body.dark-mode footer .name-hover{
+        color: #e8f0f9;
+      }
+      body.dark-mode footer .name-hover:hover{
+        color: #F70776; 
+        cursor: pointer;
+      }
+      
+  }
+  @media screen and (max-width: 1000px){
+    body.dark-mode .section{
+        margin: 50px 40px;
+    }
+    body.dark-mode #my-work {
+        margin-top: -540px; 
+        text-align: left;
+      }
+      body.dark-mode #my-work .text h1{
+        padding-bottom: 30px; 
+        text-align: justify ;
+        font-size: 50px;
+        font-weight: 600;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #fff !important;
+      }
+  
+      
+  
+  
+  
+      body.dark-mode .portfolio{
+        background-color: #161b22;
+        padding-top: 3px;
+        padding-bottom: 20px;
+        margin-top: 120px; 
+        margin-bottom: 100px;
+      }
+      body.dark-mode .portfolio .text2{
+        padding-bottom: 20px;
+        text-align: center;
+      }
+      body.dark-mode .portfolio .text2 h3{
+        padding-top: 50px;
+        font-size: 30px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio .text2 p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: center;
+      }
+      body.dark-mode .portfolio #portfolio1 #jobboxglobal h3{
+        padding: 100px 0px 0px ; 
+        font-size: 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio #portfolio1 #jobboxglobal p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: justify;
+      }
+      body.dark-mode .portfolio #portfolio2{
+        padding-top: 40px;
+      }
+      body.dark-mode .portfolio #portfolio2 #jobboxglobal h3{
+        padding: 100px 0px 0px ; 
+        font-size: 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio #portfolio2 #jobboxglobal p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: justify;
+      }
+  
+  
+  
+      
+      
+      body.dark-mode #contact {
+        background-color: #161b22;
+        text-align: center;
+      }
+      body.dark-mode #contact .section {
+        padding: 105px 20px 105px; 
+      }
+      body.dark-mode #contact .section #contact-bg .form-group input{
+        background-color: #0d1117;
+        color: #e8f0f9 ;
+        border-color: #0d1117;
+      }
+      body.dark-mode #contact .section h3{
+        padding: 30px 0px 15px; 
+        font-size: 28px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+        color: #e8f0f9 
+      }
+      body.dark-mode #contact-bg{
+        padding: 0px 20px; 
+        border: 10px solid #f7077778; 
+        background-color: #161b22;
+      }
+      body.dark-mode #what-they-say .testimony{
+        padding: 0px 0px 0px 50px; 
+        text-align: justify;
+      }
+      body.dark-mode #what-they-say .testimony .head p{
+        color: #F70776; 
+        font-size:13px; 
+        padding: 0px 0px 10px;
+      }
+      body.dark-mode #what-they-say .testimony #message p{
+        line-height: 2.7; 
+        font-size: 15px; 
+        color: #8492a6 !important;
+      }
+      body.dark-mode #what-they-say .testimony h2{
+        font-size: 28px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode #what-they-say .testimony .name h5{
+        padding-top: 20px; 
+        color: #e8f0f9  !important;
+        font-weight: 500;
+      }
+
+
+
+
+
+      body.dark-mode .socialmedia .section{
+        margin: 100px 100px 80px;
+      }
+      body.dark-mode .socialmedia .section p{
+        padding: 20px 100px; 
+        color: #8492a6 !important; 
+        font-size: 15px;
+      }
+
+
+
+
+
+      body.dark-mode footer{
+        background: #0d1117;
+        text-align: center; 
+        margin: -10px 0px;
+        width: 100%;
+      }
+      body.dark-mode footer p{
+        padding: 25px 200px 20px; 
+        color: #fff !important; 
+        font-size: 15px;
+      }
+      
+
+
+
+
+      body.dark-mode footer{
+        background: #0d1117;
+        text-align: center; 
+        margin: -10px 0px;
+        width: 100%;
+      }
+      body.dark-mode footer p{
+        padding: 25px 200px 20px; 
+        color: #F70776 !important; 
+        font-size: 15px;
+      }
+      body.dark-mode footer .name-hover{
+        color: #e8f0f9;
+      }
+      body.dark-mode footer .name-hover:hover{
+        color: #F70776; 
+        cursor: pointer;
+      }
+      
+  }
+  @media screen and (max-width: 900px){
+    body.dark-mode .section{
+        margin: 50px 35px;
+    }
+    body.dark-mode #my-work {
+      margin-top: -490px; 
+        text-align: left;
+      }
+      body.dark-mode #my-work .text h1{
+        padding-bottom: 30px; 
+        text-align: justify ;
+        font-size: 60px;
+        font-weight: 600;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #fff !important;
+      }
+      body.dark-mode #my-work #space{
+        margin-top: 50px;
+      }
+      
+  
+  
+  
+      body.dark-mode .portfolio{
+        background-color: #161b22;
+        padding-top: 3px;
+        padding-bottom: 5px;
+        margin-top: 120px; 
+        margin-bottom: 100px;
+      }
+      body.dark-mode .portfolio .text2{
+        padding-bottom: 20px;
+        text-align: center;
+      }
+      body.dark-mode .portfolio .text2 h3{
+        padding-top: 50px;
+        font-size: 30px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio .text2 p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: center;
+      }
+      body.dark-mode .portfolio #portfolio1 #jobboxglobal h3{
+        padding: 100px 0px 0px ; 
+        font-size: 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio #portfolio1 #jobboxglobal p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: justify;
+      }
+      body.dark-mode .portfolio #portfolio2{
+        padding-top: 40px;
+      }
+      body.dark-mode .portfolio #portfolio2 #jobboxglobal h3{
+        padding: 10px 0px 0px ; 
+        font-size: 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio #portfolio2 #jobboxglobal p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: justify;
+      }
+  
+  
+  
+      
+      
+      body.dark-mode #contact {
+        background-color: #161b22;
+        text-align: center;
+      }
+      body.dark-mode #contact .section {
+        padding: 105px 20px 105px; 
+      }
+      body.dark-mode #contact .section #contact-bg .form-group input{
+        background-color: #0d1117;
+        color: #e8f0f9 ;
+        border-color: #0d1117;
+      }
+      body.dark-mode #contact .section h3{
+        padding: 30px 0px 15px; 
+        font-size: 28px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+        color: #e8f0f9 
+      }
+      body.dark-mode #contact-bg{
+        padding: 0px 20px; 
+        border: 10px solid #f7077778; 
+        background-color: #161b22;
+      }
+      body.dark-mode #what-they-say .testimony{
+        padding: 100px 0px 0px 0px; 
+        text-align: justify;
+      }
+      body.dark-mode #what-they-say .testimony .head p{
+        color: #F70776; 
+        font-size:13px; 
+        padding: 0px 0px 10px;
+      }
+      body.dark-mode #what-they-say .testimony #message p{
+        line-height: 2.7; 
+        font-size: 15px; 
+        color: #8492a6 !important;
+      }
+      body.dark-mode #what-they-say .testimony h2{
+        font-size: 28px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode #what-they-say .testimony .name h5{
+        padding-top: 20px; 
+        color: #e8f0f9  !important;
+        font-weight: 500;
+      }
+
+
+
+
+
+      body.dark-mode .socialmedia .section{
+        margin: 100px 50px 80px;
+      }
+      body.dark-mode .socialmedia .section p{
+        padding: 20px 50px; 
+        color: #8492a6 !important; 
+        font-size: 15px;
+      }
+
+
+
+
+
+      body.dark-mode footer{
+        background: #0d1117;
+        text-align: center; 
+        margin: -10px 0px;
+        width: 100%;
+      }
+      body.dark-mode footer p{
+        padding: 25px 200px 20px; 
+        color: #fff !important; 
+        font-size: 15px;
+      }
+      
+
+
+
+
+      body.dark-mode footer{
+        background: #0d1117;
+        text-align: center; 
+        margin: -10px 0px;
+        width: 100%;
+      }
+      body.dark-mode footer p{
+        padding: 25px 200px 20px; 
+        color: #F70776 !important; 
+        font-size: 15px;
+      }
+      body.dark-mode footer .name-hover{
+        color: #e8f0f9;
+      }
+      body.dark-mode footer .name-hover:hover{
+        color: #F70776; 
+        cursor: pointer;
+      }
+      
+  }
+  @media screen and (max-width: 800px){
+    body.dark-mode .section{
+        margin: 50px 35px;
+    }
+    body.dark-mode #my-work {
+      margin-top: -420px; 
+        text-align: left;
+      }
+      body.dark-mode #my-work .text h1{
+        padding-bottom: 30px; 
+        text-align: justify ;
+        font-size: 60px;
+        font-weight: 600;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #fff !important;
+      }
+      body.dark-mode #my-work #space{
+        margin-top: 50px;
+      }
+      
+  
+  
+  
+      body.dark-mode .portfolio{
+        background-color: #161b22;
+        padding-top: 3px;
+        padding-bottom: 5px;
+        margin-top: 120px; 
+        margin-bottom: 100px;
+      }
+      body.dark-mode .portfolio .text2{
+        padding-bottom: 20px;
+        text-align: center;
+      }
+      body.dark-mode .portfolio .text2 h3{
+        padding-top: 50px;
+        font-size: 30px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio .text2 p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: center;
+      }
+      body.dark-mode .portfolio #portfolio1 #jobboxglobal h3{
+        padding: 100px 0px 0px ; 
+        font-size: 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio #portfolio1 #jobboxglobal p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: justify;
+      }
+      body.dark-mode .portfolio #portfolio2{
+        padding-top: 40px;
+      }
+      body.dark-mode .portfolio #portfolio2 #jobboxglobal h3{
+        padding: 10px 0px 0px ; 
+        font-size: 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio #portfolio2 #jobboxglobal p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: justify;
+      }
+  
+  
+  
+      
+      
+      body.dark-mode #contact {
+        background-color: #161b22;
+        text-align: center;
+      }
+      body.dark-mode #contact .section {
+        padding: 105px 20px 105px; 
+      }
+      body.dark-mode #contact .section #contact-bg .form-group input{
+        background-color: #0d1117;
+        color: #e8f0f9 ;
+        border-color: #0d1117;
+      }
+      body.dark-mode #contact .section h3{
+        padding: 30px 0px 15px; 
+        font-size: 28px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+        color: #e8f0f9 
+      }
+      body.dark-mode #contact-bg{
+        padding: 0px 20px; 
+        border: 10px solid #f7077778; 
+        background-color: #161b22;
+      }
+      body.dark-mode #what-they-say .testimony{
+        padding: 100px 0px 0px 0px; 
+        text-align: justify;
+      }
+      body.dark-mode #what-they-say .testimony .head p{
+        color: #F70776; 
+        font-size:13px; 
+        padding: 0px 0px 10px;
+      }
+      body.dark-mode #what-they-say .testimony #message p{
+        line-height: 2.7; 
+        font-size: 15px; 
+        color: #8492a6 !important;
+      }
+      body.dark-mode #what-they-say .testimony h2{
+        font-size: 28px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode #what-they-say .testimony .name h5{
+        padding-top: 20px; 
+        color: #e8f0f9  !important;
+        font-weight: 500;
+      }
+  
+  
+  
+  
+  
+      body.dark-mode .socialmedia .section{
+        margin: 100px 50px 80px;
+      }
+      body.dark-mode .socialmedia .section p{
+        padding: 20px 50px; 
+        color: #8492a6 !important; 
+        font-size: 15px;
+      }
+  
+  
+  
+  
+  
+      body.dark-mode footer{
+        background: #0d1117;
+        text-align: center; 
+        margin: -10px 0px;
+        width: 100%;
+      }
+      body.dark-mode footer p{
+        padding: 25px 200px 20px; 
+        color: #fff !important; 
+        font-size: 15px;
+      }
+      
+  
+  
+  
+  
+      body.dark-mode footer{
+        background: #0d1117;
+        text-align: center; 
+        margin: -10px 0px;
+        width: 100%;
+      }
+      body.dark-mode footer p{
+        padding: 25px 200px 20px; 
+        color: #F70776 !important; 
+        font-size: 15px;
+      }
+      body.dark-mode footer .name-hover{
+        color: #e8f0f9;
+      }
+      body.dark-mode footer .name-hover:hover{
+        color: #F70776; 
+        cursor: pointer;
+      }
+      
+  }
+  @media screen and (max-width: 700px){
+    body.dark-mode .section{
+        margin: 50px 35px;
+    }
+    body.dark-mode #my-work {
+      margin-top: -390px; 
+        text-align: left;
+      }
+      body.dark-mode #my-work .text h1{
+        padding-bottom: 30px; 
+        text-align: justify ;
+        font-size: 50px;
+        font-weight: 600;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #fff !important;
+      }
+      body.dark-mode #my-work #space{
+        margin-top: 50px;
+      }
+      
+  
+  
+  
+      body.dark-mode .portfolio{
+        background-color: #161b22;
+        padding-top: 3px;
+        padding-bottom: 5px;
+        margin-top: 120px; 
+        margin-bottom: 100px;
+      }
+      body.dark-mode .portfolio .text2{
+        padding-bottom: 20px;
+        text-align: center;
+      }
+      body.dark-mode .portfolio .text2 h3{
+        padding-top: 50px;
+        font-size: 30px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio .text2 p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: center;
+      }
+      body.dark-mode .portfolio #portfolio1 #jobboxglobal h3{
+        padding: 100px 0px 0px ; 
+        font-size: 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio #portfolio1 #jobboxglobal p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: justify;
+      }
+      body.dark-mode .portfolio #portfolio2{
+        padding-top: 40px;
+      }
+      body.dark-mode .portfolio #portfolio2 #jobboxglobal h3{
+        padding: 10px 0px 0px ; 
+        font-size: 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio #portfolio2 #jobboxglobal p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: justify;
+      }
+  
+  
+  
+      
+      
+      body.dark-mode #contact {
+        background-color: #161b22;
+        text-align: center;
+      }
+      body.dark-mode #contact .section {
+        padding: 105px 20px 105px; 
+      }
+      body.dark-mode #contact .section #contact-bg .form-group input{
+        background-color: #0d1117;
+        color: #e8f0f9 ;
+        border-color: #0d1117;
+        margin-top: 10px;
+      }
+      body.dark-mode #contact .section h3{
+        padding: 30px 0px 15px; 
+        font-size: 28px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+        color: #e8f0f9 
+      }
+      body.dark-mode #contact-bg{
+        padding: 0px 20px; 
+        border: 10px solid #f7077778; 
+        background-color: #161b22;
+      }
+      body.dark-mode #what-they-say .testimony{
+        padding: 100px 0px 0px 0px; 
+        text-align: justify;
+      }
+      body.dark-mode #what-they-say .testimony .head p{
+        color: #F70776; 
+        font-size:13px; 
+        padding: 0px 0px 10px;
+      }
+      body.dark-mode #what-they-say .testimony #message p{
+        line-height: 2.7; 
+        font-size: 15px; 
+        color: #8492a6 !important;
+      }
+      body.dark-mode #what-they-say .testimony h2{
+        font-size: 28px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode #what-they-say .testimony .name h5{
+        padding-top: 20px; 
+        color: #e8f0f9  !important;
+        font-weight: 500;
+      }
+  
+  
+  
+  
+  
+      body.dark-mode .socialmedia .section{
+        margin: 100px 50px 80px;
+      }
+      body.dark-mode .socialmedia .section p{
+        padding: 20px 50px; 
+        color: #8492a6 !important; 
+        font-size: 15px;
+      }
+  
+  
+  
+  
+  
+      body.dark-mode footer{
+        background: #0d1117;
+        text-align: center; 
+        margin: -10px 0px;
+        width: 100%;
+      }
+      body.dark-mode footer p{
+        padding: 25px 200px 20px; 
+        color: #fff !important; 
+        font-size: 15px;
+      }
+      
+  
+  
+  
+  
+      body.dark-mode footer{
+        background: #0d1117;
+        text-align: center; 
+        margin: -10px 0px;
+        width: 100%;
+      }
+      body.dark-mode footer p{
+        padding: 25px 200px 20px; 
+        color: #F70776 !important; 
+        font-size: 15px;
+      }
+      body.dark-mode footer .name-hover{
+        color: #e8f0f9;
+      }
+      body.dark-mode footer .name-hover:hover{
+        color: #F70776; 
+        cursor: pointer;
+      }
+      
+  }
+  @media screen and (max-width: 600px){
+    body.dark-mode .section{
+        margin: 50px 35px;
+    }
+    body.dark-mode #my-work {
+      margin-top: -330px; 
+        text-align: left;
+      }
+      body.dark-mode #my-work .text h1{
+        padding-bottom: 30px; 
+        text-align: justify ;
+        font-size: 40px;
+        font-weight: 600;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #fff !important;
+      }
+      body.dark-mode #my-work #space{
+        margin-top: 50px;
+      }
+      
+  
+  
+  
+      body.dark-mode .portfolio{
+        background-color: #161b22;
+        padding-top: 3px;
+        padding-bottom: 5px;
+        margin-top: 120px; 
+        margin-bottom: 100px;
+      }
+      body.dark-mode .portfolio .text2{
+        padding-bottom: 20px;
+        text-align: center;
+      }
+      body.dark-mode .portfolio .text2 h3{
+        padding-top: 50px;
+        font-size: 30px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio .text2 p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: center;
+      }
+      body.dark-mode .portfolio #portfolio1 #jobboxglobal h3{
+        padding: 100px 0px 0px ; 
+        font-size: 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio #portfolio1 #jobboxglobal p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: justify;
+      }
+      body.dark-mode .portfolio #portfolio2{
+        padding-top: 40px;
+      }
+      body.dark-mode .portfolio #portfolio2 #jobboxglobal h3{
+        padding: 10px 0px 0px ; 
+        font-size: 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio #portfolio2 #jobboxglobal p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: justify;
+      }
+  
+  
+  
+      
+      
+      body.dark-mode #contact {
+        background-color: #161b22;
+        text-align: center;
+      }
+      body.dark-mode #contact .section {
+        padding: 105px 20px 105px; 
+      }
+      body.dark-mode #contact .section #contact-bg .form-group input{
+        background-color: #0d1117;
+        color: #e8f0f9 ;
+        border-color: #0d1117;
+        margin-top: 10px;
+      }
+      body.dark-mode #contact .section h3{
+        padding: 30px 0px 15px; 
+        font-size: 28px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+        color: #e8f0f9 
+      }
+      body.dark-mode #contact-bg{
+        padding: 0px 20px; 
+        border: 10px solid #f7077778; 
+        background-color: #161b22;
+      }
+      body.dark-mode #what-they-say .testimony{
+        padding: 100px 0px 0px 0px; 
+        text-align: justify;
+      }
+      body.dark-mode #what-they-say .testimony .head p{
+        color: #F70776; 
+        font-size:13px; 
+        padding: 0px 0px 10px;
+      }
+      body.dark-mode #what-they-say .testimony #message p{
+        line-height: 2.7; 
+        font-size: 15px; 
+        color: #8492a6 !important;
+      }
+      body.dark-mode #what-they-say .testimony h2{
+        font-size: 28px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode #what-they-say .testimony .name h5{
+        padding-top: 20px; 
+        color: #e8f0f9  !important;
+        font-weight: 500;
+      }
+  
+  
+  
+  
+  
+      body.dark-mode .socialmedia .section{
+        margin: 100px 50px 80px;
+      }
+      body.dark-mode .socialmedia .section p{
+        padding: 20px 50px; 
+        color: #8492a6 !important; 
+        font-size: 15px;
+      }
+  
+  
+  
+  
+  
+      body.dark-mode footer{
+        background: #0d1117;
+        text-align: center; 
+        margin: -10px 0px;
+        width: 100%;
+      }
+      body.dark-mode footer p{
+        padding: 25px 200px 20px; 
+        color: #fff !important; 
+        font-size: 15px;
+      }
+      
+  
+  
+  
+  
+      body.dark-mode footer{
+        background: #0d1117;
+        text-align: center; 
+        margin: -10px 0px;
+        width: 100%;
+      }
+      body.dark-mode footer p{
+        padding: 25px 200px 20px; 
+        color: #F70776 !important; 
+        font-size: 15px;
+      }
+      body.dark-mode footer .name-hover{
+        color: #e8f0f9;
+      }
+      body.dark-mode footer .name-hover:hover{
+        color: #F70776; 
+        cursor: pointer;
+      }
+      
+  }
+  @media screen and (max-width: 500px){
+    body.dark-mode .section{
+        margin: 50px 20px;
+    }
+    body.dark-mode #my-work {
+      margin-top: -270px; 
+        text-align: left;
+      }
+      body.dark-mode #my-work .text h1{
+        padding-bottom: 30px; 
+        text-align: justify ;
+        font-size: 40px;
+        font-weight: 600;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #fff !important;
+      }
+      body.dark-mode #my-work #space{
+        margin-top: 50px;
+      }
+      
+  
+  
+  
+      body.dark-mode .portfolio{
+        background-color: #161b22;
+        padding-top: 3px;
+        padding-bottom: 5px;
+        margin-top: 120px; 
+        margin-bottom: 100px;
+      }
+      body.dark-mode .portfolio .text2{
+        padding-bottom: 20px;
+        text-align: center;
+      }
+      body.dark-mode .portfolio .text2 h3{
+        padding-top: 50px;
+        font-size: 30px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio .text2 p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: center;
+      }
+      body.dark-mode .portfolio #portfolio1 #jobboxglobal h3{
+        padding: 100px 0px 0px ; 
+        font-size: 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio #portfolio1 #jobboxglobal p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: justify;
+      }
+      body.dark-mode .portfolio #portfolio2{
+        padding-top: 40px;
+      }
+      body.dark-mode .portfolio #portfolio2 #jobboxglobal h3{
+        padding: 10px 0px 0px ; 
+        font-size: 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio #portfolio2 #jobboxglobal p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: justify;
+      }
+
+
+
+
+
+
+      body.dark-mode .slider {
+        background: pr;
+        box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+        height: 100px;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        width: 90%;
+        margin-bottom: 100px;
+        }
+
+  
+  
+  
+      
+      
+        body.dark-mode #contact {
+          background-color: #161b22;
+          text-align: center;
+        }
+        body.dark-mode #contact .section {
+          padding: 105px 15px 105px; 
+        }
+        body.dark-mode #contact .section #contact-bg .form-group input{
+          background-color: #0d1117;
+          margin-top: 10px;
+        }
+        body.dark-mode #contact .section h3{
+          padding: 30px 0px 15px; 
+          font-size: 30px;
+          font-family: 'Nunito Sans', sans-serif;
+          font-weight: 700;
+          color: #e8f0f9 !important;
+        }
+        body.dark-mode #contact-bg{
+          padding: 0px 20px; 
+          border: 10px solid #f7077778; 
+          background-color: #161b22;
+        }
+        body.dark-mode #what-they-say .testimony{
+          padding: 100px 0px 0px 0px; 
+          text-align: justify;
+        }
+        body.dark-mode #what-they-say .testimony .head p{
+          color: #F70776; 
+          font-size:13px; 
+          padding: 0px 0px 10px;
+        }
+        body.dark-mode #what-they-say .testimony #message p{
+          line-height: 2.7; 
+          font-size: 15px; 
+          color: #8492a6 !important;
+        }
+        body.dark-mode #what-they-say .testimony h2{
+          font-size: 30px;
+          font-family: 'Nunito Sans', sans-serif;
+          font-weight: 700;
+        }
+        body.dark-mode #what-they-say .testimony .name h5{
+          padding-top: 20px; 
+          color: #e8f0f9 !important;
+          font-weight: 700;
+        }
+    
+    
+    
+    
+    
+        body.dark-mode .socialmedia .section{
+          margin: 100px 50px 80px;
+        }
+        body.dark-mode .socialmedia .section p{
+          padding: 20px 50px; 
+          color: #8492a6 !important; 
+          font-size: 15px;
+        }
+    
+    
+    
+    
+    
+        body.dark-mode footer{
+          background: #0d1117;
+          text-align: center; 
+          margin: -10px 0px;
+          width: 100%;
+        }
+        body.dark-mode footer p{
+          padding: 25px 100px 20px; 
+          color: #F70776 !important; 
+          font-size: 15px;
+        }
+        body.dark-mode footer .name-hover{
+          color: #e8f0f9;
+        }
+        body.dark-mode footer .name-hover:hover{
+          color: #F70776; 
+          cursor: pointer;
+        }
+      
+  }
+  @media screen and (max-width: 400px){
+    body.dark-mode .section{
+        margin: 50px 20px;
+    }
+    body.dark-mode #my-work {
+      margin-top: -200px; 
+        text-align: left;
+      }
+      body.dark-mode #my-work .text h1{
+        padding-bottom: 30px; 
+        text-align: justify ;
+        font-size: 35px;
+        font-weight: 600;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #fff !important;
+      }
+      body.dark-mode #my-work #space{
+        margin-top: 50px;
+      }
+      
+  
+  
+  
+      body.dark-mode .portfolio{
+        background-color: #161b22;
+        padding-top: 3px;
+        padding-bottom: 5px;
+        margin-top: 120px; 
+        margin-bottom: 100px;
+      }
+      body.dark-mode .portfolio .text2{
+        padding-bottom: 20px;
+        text-align: center;
+      }
+      body.dark-mode .portfolio .text2 h3{
+        padding-top: 50px;
+        font-size: 30px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio .text2 p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: center;
+      }
+      body.dark-mode .portfolio #portfolio1 #jobboxglobal h3{
+        padding: 100px 0px 0px ; 
+        font-size: 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio #portfolio1 #jobboxglobal p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: justify;
+      }
+      body.dark-mode .portfolio #portfolio2{
+        padding-top: 40px;
+      }
+      body.dark-mode .portfolio #portfolio2 #jobboxglobal h3{
+        padding: 10px 0px 0px ; 
+        font-size: 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio #portfolio2 #jobboxglobal p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: justify;
+      }
+
+
+
+
+
+
+      body.dark-mode .slider {
+        background: pr;
+        height: 100px;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        width: 90%;
+        margin-bottom: 100px;
+        }
+
+  
+  
+  
+      
+      
+        body.dark-mode #contact {
+          background-color: #161b22;
+          text-align: center;
+        }
+        body.dark-mode #contact .section {
+          padding: 105px 15px 105px; 
+        }
+        body.dark-mode #contact .section #contact-bg .form-group input{
+          background-color: #0d1117;
+          margin-top: 10px;
+        }
+        body.dark-mode #contact .section h3{
+          padding: 30px 0px 15px; 
+          font-size: 30px;
+          font-family: 'Nunito Sans', sans-serif;
+          font-weight: 700;
+          color: #e8f0f9 !important;
+        }
+        body.dark-mode #contact-bg{
+          padding: 0px 20px; 
+          border: 10px solid #f7077778; 
+          background-color: #161b22;
+        }
+        body.dark-mode #what-they-say .testimony{
+          padding: 100px 0px 0px 0px; 
+          text-align: justify;
+        }
+        body.dark-mode #what-they-say .testimony .head p{
+          color: #F70776; 
+          font-size:13px; 
+          padding: 0px 0px 10px;
+        }
+        body.dark-mode #what-they-say .testimony #message p{
+          line-height: 2.7; 
+          font-size: 15px; 
+          color: #8492a6 !important;
+        }
+        body.dark-mode #what-they-say .testimony h2{
+          font-size: 30px;
+          font-family: 'Nunito Sans', sans-serif;
+          font-weight: 700;
+        }
+        body.dark-mode #what-they-say .testimony .name h5{
+          padding-top: 20px; 
+          color: #e8f0f9 !important;
+          font-weight: 700;
+        }
+    
+    
+    
+    
+    
+        body.dark-mode .socialmedia .section{
+          margin: 100px 50px 80px;
+        }
+        body.dark-mode .socialmedia .section p{
+          padding: 20px 50px; 
+          color: #8492a6 !important; 
+          font-size: 15px;
+        }
+    
+    
+    
+    
+    
+        body.dark-mode footer{
+          background: #0d1117;
+          text-align: center; 
+          margin: -10px 0px;
+          width: 100%;
+        }
+        body.dark-mode footer p{
+          padding: 25px 100px 20px; 
+          color: #F70776 !important; 
+          font-size: 15px;
+        }
+        body.dark-mode footer .name-hover{
+          color: #e8f0f9;
+        }
+        body.dark-mode footer .name-hover:hover{
+          color: #F70776; 
+          cursor: pointer;
+        }
+      
+  }
+  @media screen and (max-width: 321px){
+    body.dark-mode .section{
+        margin: 50px 15px;
+    }
+    body.dark-mode #my-work {
+      margin-top: -175px; 
+        text-align: left;
+      }
+      body.dark-mode #my-work .text h1{
+        padding-bottom: 30px; 
+        text-align: justify ;
+        font-size: 30px;
+        font-weight: 600;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #fff !important;
+      }
+      body.dark-mode #my-work #space{
+        margin-top: 50px;
+      }
+      
+  
+  
+  
+      body.dark-mode .portfolio{
+        background-color: #161b22;
+        padding-top: 3px;
+        padding-bottom: 5px;
+        margin-top: 120px; 
+        margin-bottom: 100px;
+      }
+      body.dark-mode .portfolio .text2{
+        padding-bottom: 20px;
+        text-align: center;
+      }
+      body.dark-mode .portfolio .text2 h3{
+        padding-top: 50px;
+        font-size: 30px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio .text2 p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: center;
+      }
+      body.dark-mode .portfolio #portfolio1 #jobboxglobal h3{
+        padding: 100px 0px 0px ; 
+        font-size: 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio #portfolio1 #jobboxglobal p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: justify;
+      }
+      body.dark-mode .portfolio #portfolio2{
+        padding-top: 40px;
+      }
+      body.dark-mode .portfolio #portfolio2 #jobboxglobal h3{
+        padding: 10px 0px 0px ; 
+        font-size: 25px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+      }
+      body.dark-mode .portfolio #portfolio2 #jobboxglobal p{
+        font-size: 15px; 
+        color: #8492a6 !important; 
+        letter-spacing: 1.5px; 
+        line-height: 2; 
+        text-align: justify;
+      }
+
+
+
+
+
+
+      body.dark-mode .slider {
+        background: pr;
+        height: 100px;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        width: 90%;
+        margin-bottom: 100px;
+        }
+
+  
+  
+  
+      
+      
+        body.dark-mode  #contact {
+          background-color: #161b22;
+          text-align: center;
+        }
+        body.dark-mode  #contact .section {
+          padding: 105px 15px 105px; 
+        }
+        body.dark-mode  #contact .section #contact-bg .form-group{
+          padding-top: 0px;
+        }
+        body.dark-mode  #contact .section #contact-bg .form-group input{
+          background-color: #0d1117;
+          margin-top: 15px;
+        }
+        body.dark-mode  #contact .section h3{
+          padding: 30px 0px 15px; 
+          font-size: 30px;
+          font-family: 'Nunito Sans', sans-serif;
+          font-weight: 700;
+        }
+        body.dark-mode  #contact-bg{
+          padding: 0px 20px; 
+          border: 10px solid #f7077778; 
+          background-color: #161b22;
+        }
+        body.dark-mode  #what-they-say .testimony{
+          padding: 100px 0px 0px 0px; 
+          text-align: justify;
+        }
+        body.dark-mode  #what-they-say .testimony .head p{
+          color: #F70776; 
+          font-size:13px; 
+          padding: 0px 0px 10px;
+        }
+        body.dark-mode  #what-they-say .testimony #message p{
+          line-height: 2.7; 
+          font-size: 15px; 
+          color: #8492a6 !important;
+        }
+        body.dark-mode  #what-they-say .testimony h2{
+          font-size: 30px;
+          font-family: 'Nunito Sans', sans-serif;
+          font-weight: 700;
+        }
+        body.dark-mode  #what-they-say .testimony .name h5{
+          padding-top: 20px; 
+          color: #fff !important;
+          font-weight: 700;
+        }
+    
+    
+    
+    
+    
+        body.dark-mode .socialmedia .section{
+          margin: 100px 20px 80px;
+        }
+        body.dark-mode .socialmedia .section p{
+          padding: 20px 20px; 
+          color: #8492a6 !important; 
+          font-size: 15px;
+        }
+    
+    
+    
+    
+    
+        body.dark-mode footer{
+          background: #0d1117;
+          text-align: center; 
+          margin: -10px 0px;
+          width: 100%;
+        }
+        body.dark-mode footer p{
+          padding: 25px 70px 20px; 
+          color: #F70776 !important; 
+          font-size: 15px;
+        }
+        body.dark-mode footer .name-hover{
+          color: #e8f0f9;
+        }
+        body.dark-mode footer .name-hover:hover{
+          color: #F70776; 
+          cursor: pointer;
+        }
+      
+  }
+  
+  
